@@ -1,0 +1,216 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+
+}
+nav{
+    background-color:blue;
+   /* color:black;*/
+}
+.nav-container{
+    width: 80%;
+    display: flex;
+}
+.menu{
+    /*margin-left:30px;*/
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+nav a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+nav img{
+    width: 120px;
+    height: 50px;
+    padding: 10px 0;
+    /* margin: 10px auto; */
+}
+#top{
+    /* background-color: gray; */
+    /* height: 450px; */
+    display: flex;
+    padding: 20px 0;
+}
+.top_box{
+    width: 23%;
+    background-color: white;
+    height: 450px;
+    position: relative;
+}
+.top_box img{
+    width: 100%;
+    height: 450px;
+}
+.top_box .caption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    padding:20px 10px;
+    box-sizing: border-box;
+    opacity: 0.6;
+}
+.tag{
+    background-color: blue;
+    color:aliceblue;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+.caption h2 a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 15px 0;
+    display: inline-block;
+}
+.date{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+#newsletter{
+    background-color: aqua;
+    background-image: url(image17.jpg);
+    padding: 40px;
+} 
+.container{
+    width: 80%;
+    display: flex;
+}
+.info{
+    width: 40%;
+}
+.info h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: rgb(41, 41, 116);
+}
+.info span{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: rgb(95, 71, 156);
+    font-style: italic;
+}
+#newsletter form{
+    width: 50%;
+}
+.in{
+    border-color: transparent;
+    width: 300px;
+    height: 52px;
+    padding: 0 34px;
+    padding-left: 40px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+.btn{
+    background-color: blue;
+    border-color: transparent;
+    color: aliceblue;
+    font-weight: 700;
+    cursor: pointer;
+    height: 55px;
+    width: 100px;
+}
+footer{
+    background-color: aqua;
+    padding: 40px 0;
+
+}
+.footer_box{
+    width: 20%;
+}
+.footer_box img{
+    width: 80%;
+}
+.footer_box h4{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    color: antiquewhite;
+    border-bottom: 2px solid blue;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.footer_menu{
+    padding-top: 10px;
+}
+.footer_menu a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.footer_menu a:hover{
+    color:red;
+}
+/* contact page ko css */
+#contact{
+    /* background-color: red; */
+    padding: 50px 0;
+}
+#contact.in,#contact textarea{
+    border: 1px solid black;
+    width:100%;
+    display:block;
+}
+#contact h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    color: antiquewhite;
+    border-bottom: 2px solid blue;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+#contact p{
+    padding: 5px 0;
+}
+#contact label{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: blue;
+    padding-bottom: 5px;
+}
+#about{
+     padding: 50px;
+}
+.acontainer{
+    width: 60%;
+}
+#about h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    color: blue;
+    border-bottom: 2px solid blue;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+#about iframe{
+    display: block;
+    width: 100%;
+    height: 400px;
+    padding: 20px 0;
+}
+#about p{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    line-height: 22px;
+    color: blue;
+}
+
+

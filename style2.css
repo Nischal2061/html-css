@@ -1,0 +1,152 @@
+*{
+    margin: 0 auto;
+    padding:0;
+
+}
+.container{
+    width: 80%;
+
+}
+header{
+    background-color: white; 
+    padding: 0;
+
+}
+header img{
+    height: 50px;
+}
+nav{
+    background-color: black;
+}
+nav a{
+    display: inline-block;
+    padding:20px 15px;
+    color: aqua;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav a:hover{
+    color:yellow;
+}
+.feature{
+    padding: 30px 0;
+
+}
+.boxes{
+    display: flex;
+}
+.box{
+    background-color:white;
+    width: 33%;
+}
+.box img{
+    display:block;
+    width:350px;
+    height:400px;
+}
+.red{
+    background-color: red;
+    position:absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 5px;
+    color: yellow;
+}
+.bottom-right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: yellow;
+    columns:red;
+    padding: 10px 5px;
+
+}
+.about{
+    background-color:aqua;
+    padding: 30px 0;
+}
+.about h3{
+    font-size: 40px;
+    color: green;
+
+}
+.about p{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:10px 0;
+    line-height: 22px;
+}
+.about a{
+background-color: aquamarine;
+background-image: linear-gradient(blue,green);
+padding: 10px 15px;
+color: azure;
+text-decoration: none;
+}
+.about a:hover{
+    color: yellow;
+    cursor:grab;
+}
+.newsletter{
+    background-color: rgb(41, 48, 45);
+    padding: 30px 0;
+}
+.newsletter h4{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: aquamarine;
+}
+.newsletter form{
+    text-align: center;
+    padding-top: 10px;
+
+}
+.in{
+    padding: 5px;
+    width: 300px;
+    border: 1px solid black;
+    height: 30px;
+}
+.btn{
+    background-color: aquamarine;
+background-image: linear-gradient(blue,green);
+padding: 10px 15px;
+color: azure;
+text-decoration: none;
+cursor: grab;
+}
+.btn :hover{
+    color: yellow;
+    cursor:grab;
+}
+footer{
+    padding: 30px 0;
+
+}
+.footer_boxes{
+    display: flex;
+}
+.footer_box{
+width: 25%;
+padding: 10px;
+}
+.footer_box h5{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: aquamarine;
+}
+.footer_box ul{
+    list-style-type:none;
+}
+.footer_box ul li{
+    padding: 5px 0;
+    border-bottom: 1px solid violet;
+}
+.footer_box ul li a{
+    color: aqua;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
